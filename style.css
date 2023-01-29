@@ -344,6 +344,7 @@ body {
   height: 452px;
   background: url(./assets/Rectangle\ 5first_card_background.png) no-repeat;
   display: flex;
+  gap: 30px;
 }
 .first_card_text_btn {
   margin-left: 15px;
@@ -354,7 +355,7 @@ body {
 }
 .first_card_text_btn h1 {
   font-weight: 800;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   font-family: var(--font-family--);
   margin-bottom: 25px;
@@ -419,6 +420,11 @@ body {
   justify-content: space-between;
 }
 
+.third_card img {
+  width: 40%;
+  height: 100%;
+}
+
 .third_card_text_btn {
   margin-left: 15px;
   display: flex;
@@ -443,10 +449,6 @@ body {
   color: red;
   margin-bottom: 30px;
   outline: none;
-}
-.third_card_img {
-  margin-left: px;
-  margin-bottom: 50px;
 }
 
 /* footer wrapper */
@@ -497,10 +499,11 @@ body {
   text-transform: capitalize;
 }
 .footer_image_wrapper_tarck {
-  gap: 20px;
+  width: 100%;
   position: relative;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
 }
 .footer_image_wrapper_tarck:nth-child(4) {
